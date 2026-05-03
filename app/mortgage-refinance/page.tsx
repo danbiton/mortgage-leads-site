@@ -2,12 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import type { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "מחזור משכנתא - איך לחסוך עשרות אלפי שקלים",
-  description: "בדוק האם כדאי למחזר את המשכנתא שלך וקבל הצעה משתלמת עם ליווי מקצועי.",
-};
 
 const reasons = [
     { icon: "📉", title: "הריבית בשוק ירדה", desc: "אם הריבית ירדה מאז לקחת את המשכנתא — כנראה משלם יותר מדי" },

@@ -2,12 +2,9 @@
 
 import Link from "next/link";
 import { useState, useCallback } from "react";
-import type { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "מחשבון משכנתא חינם - חישוב תמהיל והחזר חודשי",
-  description: "חשב תמהיל משכנתא בקלות – הזן סכום, ריבית ותקופה וקבל החזר חודשי מדויק.",
-};
+
+
 
 const TRACK_TYPES = ["פריים", "קבועה לא צמודה", "קבועה צמודה מדד", "משתנה כל 5 שנים", "משתנה כל שנה"];
 
