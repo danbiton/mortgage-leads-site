@@ -5,7 +5,7 @@ export default function WhatsAppButton() {
     <>
       {/* Floating WhatsApp button */}
       <a
-        href="https://wa.me/972537199663"
+        href="https://wa.me/972537199663?text=שלום%20טל%2C%20הגעתי%20דרך%20האתר%20שלך%20ואשמח%20לייעוץ%20"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="פתח שיחת WhatsApp עם טל כהן"

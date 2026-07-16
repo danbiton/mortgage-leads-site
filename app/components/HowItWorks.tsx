@@ -27,7 +27,7 @@ const steps = [
 
 export default function HowItWorks() {
   return (
-    <section id="how-it-works" className="py-24 bg-dark-mid relative overflow-hidden">
+    <section id="how-it-works" className="py-24 bg-[#e8e6e1] relative overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(212,175,55,0.06)_0%,_transparent_70%)] pointer-events-none" />
 
       <div className="max-w-6xl mx-auto px-6 relative z-10">
@@ -35,10 +35,10 @@ export default function HowItWorks() {
           <span className="inline-block px-5 py-1.5 text-sm font-semibold text-gold border border-gold/30 bg-gold/5 rounded-full mb-4">
             התהליך
           </span>
-          <h2 className="text-3xl lg:text-4xl font-black text-white mb-4">
+          <h2 className="text-3xl lg:text-4xl font-black text-slate-800 mb-4">
             איך זה <span className="gold-gradient">עובד?</span>
           </h2>
-          <p className="text-white/50 text-lg">תהליך פשוט וברור — אנחנו מטפלים בהכל</p>
+         <p className="text-slate-500 text-lg">תהליך פשוט וברור — אנחנו מטפלים בהכל</p>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
